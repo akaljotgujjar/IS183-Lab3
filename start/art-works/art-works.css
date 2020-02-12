@@ -1,6 +1,6 @@
 #about-container {
     height: 100%;
-    /* background-color: red; */
+    overflow: auto;
 }
 
 #about-container-inner {
@@ -106,6 +106,7 @@
 
 .art-content {
     display: grid;
+    grid-column-gap: 1em;
     grid-template-columns: 3fr 1fr;
 }
 
@@ -165,3 +166,144 @@
     border-radius: 7px;
     padding: 1em;
 }
+
+/* side begin */
+
+.left-sidebar-block {
+    border-radius: 7px;
+    border: 1px solid blue;
+    min-height: 250px;
+    margin-bottom: 10px;
+}
+
+.light-blue {
+    border: 1px solid #428bca;
+}
+
+.accent-blue {
+    /* background-color: #d9edf7; */
+    border: 1px solid #d9edf7;
+}
+
+.accent-background {
+    background-color: #d9edf7;
+}
+
+h3.block-header {
+    background-color: #428bca;
+    color: #fff;
+    padding: 7px;
+    font-size: .95em;
+}
+
+h3.block-header-background {
+    background-color: #d9edf7;
+    color: #31738f;
+    padding: 7px;
+    font-size: .95em;
+}
+
+.sidebar-list {
+    list-style-type: none;
+    text-align: center;
+    padding: .5em;
+}
+
+.sidebar-list > li > a {
+    display: block;
+    padding: 7px 0px;
+    text-decoration: none;
+    transition-duration: 0.9s;
+}
+
+.sidebar-list > li > a:hover {
+    background-color: #f1f1f1;
+}
+
+.sidebar-list > li {
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+.sidebar-list > li > img {
+    margin-right: 5px;
+    width: 33px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.align-text-left {
+    text-align: left;
+}
+
+.tiny-text {
+    font-size: .7em;
+}
+
+.btn-below {
+    margin: 5px;
+}
+
+/* FOOTER START */
+
+.top-footer {
+    margin-top: 450px;
+    background-color: #e7e7e7;
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+    height: 350px;
+    padding: 10px 0px 0px;
+}
+
+.medium-text {
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list > li {
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+ul.footer-list > li > img {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-link {
+    padding: 15px 0px;
+    display: block;
+}
+
+.bottom-footer {
+    background-color: #3a3a3a;
+    color: #777;
+}
+
+.footer-bottom-inner {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.footer-bottom-inner > span {
+    padding: 15px 0px;
+    display: block;
+}
+
+
+
+/* FOOTER START */
